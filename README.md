@@ -4,8 +4,7 @@ A clean CSS snippet that applies a **Mariana-inspired color palette** (based on 
 
 This project does **not** replace the Minimal theme. Instead, it provides a **non-intrusive color override**, keeping the layout, spacing, typography, animations, and UX of Minimal — while giving the entire app the distinct Mariana look.
 
-<img width="500" height="510" alt="screenshot-reading" src="https://github.com/user-attachments/assets/3ddff17e-dabd-4116-8861-c1ede4a145b4" />
-<img width="500" height="510" alt="screenshot-editing" src="https://github.com/user-attachments/assets/2181bfac-290b-4331-9520-c0b977480add" />
+<img alt="screenshot-reading" src="https://github.com/user-attachments/assets/3ddff17e-dabd-4116-8861-c1ede4a145b4" />
 
 ## Installation
 
