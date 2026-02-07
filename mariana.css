@@ -1,16 +1,26 @@
 /* ------------------------------------------------------
-   Mariana palette (override for Minimal)
+   Mariana palette
 ------------------------------------------------------ */
 .theme-dark {
-  --background-primary:        #303841;
-  --background-secondary:      #1c2228;
-  --background-primary-alt:    #39424c;
-  --background-secondary-alt:  #171c22;
+  --color-base-00: #303841;
+  /*--color-base-05:;*/
+  --color-base-10: #39424c;
+  --color-base-20: #1c2228;
+  /*--color-base-25:;*/
+  --color-base-30: #171c22;
+  /*--color-base-35:;*/
+  --color-base-40: var(--color-base-10);
+  /*--color-base-50:;*/
+  /*--color-base-60:;*/
+  /*--color-base-70:;*/
+  /*--color-base-100:;*/
 
   --text-normal:  #d8dee9;
   --text-muted:   #a6acb9;
   --text-faint:   #647382;
 
+  --interactive-normal:       var(--color-base-00);
+  --interactive-hover:        var(--color-base-20);
   --interactive-accent:       #5c99d6;
   --interactive-accent-hover: #6699cc;
   --link-color:               var(--interactive-accent);
@@ -18,7 +28,8 @@
   --text-accent:              var(--interactive-accent);
   --text-accent-hover:        var(--interactive-accent-hover);
 
-  --selection-background: rgba(89,102,115,0.45);
+  --background-modifier-hover: var(--interactive-hover);
+  --selection-background: rgba(89,102,115,0.45);  
   --cursor-color:        #f9ae58;
 
   /* headings */
@@ -128,7 +139,7 @@
 }
 
 /* ------------------------------------------------------
-   CodeMirror (kept minimal to avoid breaking Minimal)
+   CodeMirror
 ------------------------------------------------------ */
 .theme-dark .cm-editor,
 .theme-dark .cm-scroller {
@@ -200,14 +211,20 @@
 }
 
 /* ------------------------------------------------------
-   Buttons
+   Forms
 ------------------------------------------------------ */
 .theme-dark .mod-cta,
 .theme-dark .button,
 .theme-dark button {
-  background-color: var(--background-primary) !important;
-  color: var(--text-normal) !important;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
   border-radius: 6px;
+}
+
+.theme-dark .mod-cta:hover,
+.theme-dark .button:hover,
+.theme-dark button:hover {
+  background-color: var(--interactive-hover);
 }
 
 /* ------------------------------------------------------
@@ -223,5 +240,5 @@
 }
 
 body:not(.sidebar-color) .mod-right-split {
-    --background-secondary: #1c2228;
+    --background-secondary: var(--color-base-20);
 }
