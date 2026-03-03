@@ -1,7 +1,8 @@
 /* ------------------------------------------------------
    Mariana palette
 ------------------------------------------------------ */
-.theme-dark {
+.theme-dark.minimal-theme,
+body.theme-dark {
   --color-base-00: #212830;
   /*--color-base-05:;*/
   --color-base-10: #39424c;
