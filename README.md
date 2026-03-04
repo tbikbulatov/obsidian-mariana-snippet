@@ -1,10 +1,16 @@
-# Mariana CSS snippet for Obsidian
-A clean CSS snippet that applies a **Mariana-inspired color palette** (based on Sublime Text & VS Code Mariana themes) for Obsidian. Applies only in the dark mode.
-
-## Installation
-1. Download `mariana.css` from this repository
-2. Copy it into your vault: `<vault>/.obsidian/snippets/`
-3. Switch to the dark scheme: **Settings → Appearance → Base Color Scheme → Dark**
-4. Enable it: **Settings → Appearance → CSS snippets → enable `mariana`**
+## GitHub Dark Dimmed
+### Installation
+1. Switch to the Dark color scheme in **Settings → Appearance → Base Color Scheme**
+1. Copy `github-dark-dimmed.css` into your vault: `<vault>/.obsidian/snippets/`
+1. Enable it in **Settings → Appearance → CSS snippets**
 
 <img alt="Screenshot" src="https://github.com/user-attachments/assets/e6a14e68-760c-4f69-8602-2708cc80ffee" />
+
+## Dynalist's Sepia
+### Installation
+1. Switch to the Light color scheme in **Settings → Appearance → Base Color Scheme**
+1. Install [Border Theme](https://github.com/Akifyss/obsidian-border) and choose it in **Settings → Appearance → Theme**
+1. Install [Style Settings plugin](https://github.com/mgmeyers/obsidian-style-settings) and enable it
+1. Open **Settings → Style Settings → Import** and copy contents of `dynalist-sepia.json` to appeared window, press Save
+
+<img alt="Screenshot" src="https://github.com/user-attachments/assets/74c42450-1a91-4945-ba33-fba05e615caa" />
